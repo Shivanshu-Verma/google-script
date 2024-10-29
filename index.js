@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 app.use(cors());
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 4000;
 
 // Middleware to parse JSON request bodies
 app.use(bodyParser.json());
