@@ -18,7 +18,7 @@ app.post("/proxy", async (req, res) => {
   try {
     // Replace this with your actual Google Apps Script URL
     const googleScriptURL =
-      "https://script.google.com/macros/s/AKfycbxV14yJJZsbG9NK4kmrXXY_ae2DnpY6af6OfNuLwJ8mfI5KZ2nn8sByByAD2qrOVrd1/exec";
+      "https://script.google.com/macros/s/AKfycbxzpq_MVSoMKtgHL_gC6_mlKT-JBK40vIsEjfX3YU_HjGnF5T1ImrujdNbJStOF73HQ/exec";
 
     // Forward the request data to the Google Apps Script
     const response = await axios.post(googleScriptURL, req.body, {
